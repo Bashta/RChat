@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65895D611C385B3D00BBB617 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65895D601C385B3D00BBB617 /* AppDelegate.swift */; };
+		65895D661C385B3D00BBB617 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65895D641C385B3D00BBB617 /* Main.storyboard */; };
+		65895D681C385B3D00BBB617 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65895D671C385B3D00BBB617 /* Assets.xcassets */; };
+		65895D6B1C385B3D00BBB617 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65895D691C385B3D00BBB617 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		65895D5D1C385B3D00BBB617 /* RChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65895D601C385B3D00BBB617 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65895D651C385B3D00BBB617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65895D671C385B3D00BBB617 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65895D6A1C385B3D00BBB617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65895D6C1C385B3D00BBB617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65895D5A1C385B3D00BBB617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65895D541C385B3D00BBB617 = {
+			isa = PBXGroup;
+			children = (
+				65895D5F1C385B3D00BBB617 /* RChat */,
+				65895D5E1C385B3D00BBB617 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65895D5E1C385B3D00BBB617 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65895D5D1C385B3D00BBB617 /* RChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65895D5F1C385B3D00BBB617 /* RChat */ = {
+			isa = PBXGroup;
+			children = (
+				65895D721C385D5F00BBB617 /* Models */,
+				65895D731C385D6B00BBB617 /* Views */,
+				65895D741C385D7200BBB617 /* Controllers */,
+				65895D771C385DCD00BBB617 /* SupportingFiles */,
+				65895D761C385D9000BBB617 /* Helpers */,
+				65895D751C385D8600BBB617 /* Assets */,
+			);
+			path = RChat;
+			sourceTree = "<group>";
+		};
+		65895D721C385D5F00BBB617 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		65895D731C385D6B00BBB617 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				65895D641C385B3D00BBB617 /* Main.storyboard */,
+				65895D691C385B3D00BBB617 /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		65895D741C385D7200BBB617 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		65895D751C385D8600BBB617 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				65895D671C385B3D00BBB617 /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		65895D761C385D9000BBB617 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		65895D771C385DCD00BBB617 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				65895D6C1C385B3D00BBB617 /* Info.plist */,
+				65895D601C385B3D00BBB617 /* AppDelegate.swift */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65895D5C1C385B3D00BBB617 /* RChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65895D6F1C385B3D00BBB617 /* Build configuration list for PBXNativeTarget "RChat" */;
+			buildPhases = (
+				65895D591C385B3D00BBB617 /* Sources */,
+				65895D5A1C385B3D00BBB617 /* Frameworks */,
+				65895D5B1C385B3D00BBB617 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RChat;
+			productName = RChat;
+			productReference = 65895D5D1C385B3D00BBB617 /* RChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65895D551C385B3D00BBB617 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = 01Logic;
+				TargetAttributes = {
+					65895D5C1C385B3D00BBB617 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5JWGM7A2T3;
+					};
+				};
+			};
+			buildConfigurationList = 65895D581C385B3D00BBB617 /* Build configuration list for PBXProject "RChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65895D541C385B3D00BBB617;
+			productRefGroup = 65895D5E1C385B3D00BBB617 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65895D5C1C385B3D00BBB617 /* RChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65895D5B1C385B3D00BBB617 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65895D6B1C385B3D00BBB617 /* LaunchScreen.storyboard in Resources */,
+				65895D681C385B3D00BBB617 /* Assets.xcassets in Resources */,
+				65895D661C385B3D00BBB617 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65895D591C385B3D00BBB617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65895D611C385B3D00BBB617 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		65895D641C385B3D00BBB617 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65895D651C385B3D00BBB617 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65895D691C385B3D00BBB617 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65895D6A1C385B3D00BBB617 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65895D6D1C385B3D00BBB617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65895D6E1C385B3D00BBB617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65895D701C385B3D00BBB617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.Bashta.RChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		65895D711C385B3D00BBB617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.Bashta.RChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65895D581C385B3D00BBB617 /* Build configuration list for PBXProject "RChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65895D6D1C385B3D00BBB617 /* Debug */,
+				65895D6E1C385B3D00BBB617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65895D6F1C385B3D00BBB617 /* Build configuration list for PBXNativeTarget "RChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65895D701C385B3D00BBB617 /* Debug */,
+				65895D711C385B3D00BBB617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65895D551C385B3D00BBB617 /* Project object */;
+}
